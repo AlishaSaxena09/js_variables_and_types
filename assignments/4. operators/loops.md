@@ -20,9 +20,22 @@ var amount = 0;
 2. 🎖 Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen using `alert` (e.g. "2 is even").
 ```js
 // your code goes here
+for (let i=2; i<=20; i=i+2){
+    console.log(i);
+}
+for (let i=1; i<=20; i=i+2){
+    console.log(i);
+}
+
+
 ```
 
 3. 🎖Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result in console (e.g. "2 * 9 = 18").
+```js
+for(let i=0; i<=10; i++){
+    console.log(9*i);
+}
+```
 
 4. 🎖Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
 (e.g.
@@ -31,6 +44,11 @@ var amount = 0;
 "1 * 3 = 3"
 "1 * 4 = 4"
 .... for all 100 results)
+```js
+for( let i=1; i<=100; i++){
+  console.log("1 *"+i+" = "+i*1);
+}
+```
 
 5. 🎖Show the following output using one loop.
 ```js
@@ -38,11 +56,23 @@ var amount = 0;
 // 6, 7, 8, 9, 10
 
 // Your code goes here
+var str= "";
+var str1="";
+for(let i=1;i<=5; i++){
+  str=str+i+","
+  str1=str1+ (i+5)+ ","
+}
+console.log(str);
+console.log(str1);
 ```
 
 6. 🎖Use a while loop to add up the numbers 1 to 20.
 ```js
 // Your code goes here
+var i = 1;
+while(i<=20,i++){
+    console.log(i)
+}
 ```
 
 7. 🎖Use a while loop to print out the even number from 1 to 20. (You'll need Modulus for this. And an IF Statement.)
